@@ -1,25 +1,22 @@
-function Login(){
-return (
-    <dive>
-        <h1>Login</h1>
-    </dive>
-)
-}
-export function Profile(){
-    return (
+function Bpp(){
+    const name="Anil Sidhu";
+    let x=10;
+    let y=20;
+    function fruit(){
+        return "Apple";
+    }
+    function sum(a,b){
+        return a+b
+    }
+    return(
         <div>
-            <h1>Profile</h1>
-        </div>
-    )
-}
-export function Setting(){
-    return (
-        <div>
-            <h1>Setting</h1>
+        <h1>JSX with curly Braces</h1>
+        <h1>{name}</h1>
+        <h1>{x+y}</h1>
+        <h1>{fruit}</h1>
+        {sum(100,10)}
         </div>
     )
 }
 
-export default Login
-
-export const UserKey="@aaaaaaaa"
+export default Bpp
