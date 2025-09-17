@@ -1,4 +1,42 @@
+function User({names}){
+    return(
+        <div>
+            <h1>Array pass on props</h1>
+            <h2>{names}</h2>
+        </div>
+    )
+}
 
+export default User;
+
+
+
+
+// function User({data}){
+//     console.log(data)
+//     return(
+//         <div>
+//             <h1>User Component</h1>
+//             <h1>Name: {data.name}</h1>
+//             <h1>Age: {data.age}</h1>
+//             <h1>Email: {data.email}</h1>
+//         </div>
+//     )
+// }
+
+// export default User;
+
+
+
+
+// function User(){
+//     return(
+//         <div>
+//             <h1>Toggle Component</h1>
+//         </div>
+//     )
+// }
+// export default User;
 
 
 
