@@ -1,15 +1,52 @@
-import User from "./User.jsx"
+import {useState} from "react";
 
 function App(){
-  let collegeNames = ["GIM", "MIT", "NIT" ]
+  const [val,setVal]=useState();
   return(
     <div>
-      <User names={collegeNames[0]}/>
+      <h1>get input field val in State</h1>
+      <input type="text" value={val} onChange={(event)=>setVal(event.target.value)} placeholder="Enter your name"/>
+      <h1>{val}</h1>
+      <button onClick={()=>setVal("")}>Clear Value</button>
     </div>
   )
 }
 
-export default App;
+export default App
+
+
+// import User from "./User.jsx"
+
+// function App () {
+//   return(
+//     <div>
+//     <User color="blue">
+//     <h1>Shahid Ali</h1>
+//     </User>
+//     <User color="yellow">
+//     <h1>Sam</h1>
+//     </User>
+//     <User>
+//     <h1>Anil</h1>
+//     </User>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import User from "./User.jsx"
+
+// function App(){
+//   let collegeNames = ["GIM", "MIT", "NIT" ]
+//   return(
+//     <div>
+//       <User names={collegeNames[0]}/>
+//     </div>
+//   )
+// }
+
+// export default App;
 
 // import User from "./User.jsx";
 // function App(){

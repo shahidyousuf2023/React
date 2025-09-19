@@ -1,13 +1,28 @@
-function User({names}){
-    return(
-        <div>
-            <h1>Array pass on props</h1>
-            <h2>{names}</h2>
-        </div>
-    )
-}
 
-export default User;
+
+
+
+
+// function User({children, color="red"}){
+//     return(
+//         <div style={{color:color, border:"5px solid green", width:"300px", margin:"10px"}}>
+//         {children}
+//         </div>
+//     )
+// }
+
+// export default User;
+
+// function User({names}){
+//     return(
+//         <div>
+//             <h1>Array pass on props</h1>
+//             <h2>{names}</h2>
+//         </div>
+//     )
+// }
+
+// export default User;
 
 
 
