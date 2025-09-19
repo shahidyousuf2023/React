@@ -2,12 +2,22 @@ import {useState} from "react";
 
 function App(){
   const [val,setVal]=useState();
+  const [pass,setPass]=useState();
+  const [email,setEmail]=useState();
   return(
     <div>
       <h1>get input field val in State</h1>
       <input type="text" value={val} onChange={(event)=>setVal(event.target.value)} placeholder="Enter your name"/>
+      <br></br><br></br>
+      <input type="password" value={pass} onChange={(event)=>setPass(event.target.value)} placeholder="Enter your password"/>
+      <br></br><br></br>
+      <input type="text" value={email} onChange={(event)=>setEmail(event.target.value)} placeholder="Enter your email"/>
+
+
       <h1>{val}</h1>
-      <button onClick={()=>setVal("")}>Clear Value</button>
+      <h1>{pass}</h1>
+      <h1>{email}</h1>
+      <button onClick={()=>{setVal(""); setPass(""); setEmail("")}}>Clear Value</button>
     </div>
   )
 }
