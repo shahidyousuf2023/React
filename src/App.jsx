@@ -1,28 +1,41 @@
-import {useState} from "react";
-
+import User from "./User";
 function App(){
-  const [val,setVal]=useState();
-  const [pass,setPass]=useState();
-  const [email,setEmail]=useState();
-  return(
-    <div>
-      <h1>get input field val in State</h1>
-      <input type="text" value={val} onChange={(event)=>setVal(event.target.value)} placeholder="Enter your name"/>
-      <br></br><br></br>
-      <input type="password" value={pass} onChange={(event)=>setPass(event.target.value)} placeholder="Enter your password"/>
-      <br></br><br></br>
-      <input type="text" value={email} onChange={(event)=>setEmail(event.target.value)} placeholder="Enter your email"/>
-
-
-      <h1>{val}</h1>
-      <h1>{pass}</h1>
-      <h1>{email}</h1>
-      <button onClick={()=>{setVal(""); setPass(""); setEmail("")}}>Clear Value</button>
-    </div>
-  )
+    return(
+        <div>
+            <h1>check boxes store in State in the form of Array and dsiply by using toString()</h1>
+            <User />
+        </div>
+    )
 }
 
-export default App
+export default App;
+
+
+// import {useState} from "react";
+
+// function App(){
+//   const [val,setVal]=useState();
+//   const [pass,setPass]=useState();
+//   const [email,setEmail]=useState();
+//   return(
+//     <div>
+//       <h1>get input field val in State</h1>
+//       <input type="text" value={val} onChange={(event)=>setVal(event.target.value)} placeholder="Enter your name"/>
+//       <br /><br />
+//       <input type="password" value={pass} onChange={(event)=>setPass(event.target.value)} placeholder="Enter your password"/>
+//       <br /><br />
+//       <input type="text" value={email} onChange={(event)=>setEmail(event.target.value)} placeholder="Enter your email"/>
+
+
+//       <h1>{val}</h1>
+//       <h1>{pass}</h1>
+//       <h1>{email}</h1>
+//       <button onClick={()=>{setVal(""); setPass(""); setEmail("")}}>Clear Value</button>
+//     </div>
+//   )
+// }
+
+// export default App
 
 
 // import User from "./User.jsx"

@@ -3,6 +3,77 @@
 
 
 
+// import { useState } from 'react';
+
+// function App() {
+//     const [gender, setGender] = useState('female');
+//     const [city, setCity] = useState('gilgit');
+
+//     return (
+//         <div>
+//             <h1>radio and drop down selection and store value in state</h1>
+//             <input type="radio" onChange={(event) => setGender(event.target.value)} name="gender" id="male"
+//                 value={"male"} checked={gender == "male"} />
+//             <label htmlFor="male">Male</label>
+//             <input type="radio" onChange={(event) => setGender(event.target.value)} name="gender" id="female"
+//                 value={"female"} checked={gender == "female"} />
+//             <label htmlFor="female">Female</label>
+//             <h1>{gender}</h1>
+//             <br /><br />
+
+//             <select defaultValue={"gilgit"} onChange={(event)=>setCity(event.target.value)}>
+//                 <option value="gilgit">Gilgit</option>
+//                 <option value="nagar">Nagar</option>
+//                 <option value="hunza">Hunza</option>
+//             </select>
+//             <h1>{city}</h1>
+
+//         </div>
+//     )
+// }
+
+// export default App;
+
+
+
+// import {useState} from 'react';
+
+// function User(){
+//     const [skills,setSkills]=useState(['']);
+//     const handleSkills=(event)=>{
+//         console.log(event.target.value, event.target.checked)
+//         if(event.target.checked){
+//             setSkills([...skills,event.target.value])
+//         }else{
+//             setSkills([skills.filter((item)=>item!=event.target.value)])
+//         }
+//     }
+//     return(
+//         <div>
+//             <h2>Check Boxes</h2>
+//             <form>
+//                 <input type="checkbox" onChange={handleSkills} id="html" value="html" />
+//                 <label htmlFor="html">Html</label>
+//                 <br />
+//                 <input type="checkbox" onChange={handleSkills} id="css" value="css" />
+//                 <label htmlFor="css">CSS</label>
+//                 <br />
+//                 <input type="checkbox" onChange={handleSkills} id="js" value="JS" />
+//                 <label htmlFor="js">JS</label>
+//                 <br />
+//                 <input type="checkbox" onChange={handleSkills} id="react" value="react" />
+//                 <label htmlFor="react">React</label>
+//                 <br />
+//                 <h3>{skills.toString()}</h3>
+//             </form>
+//         </div>
+//     )
+// }
+
+// export default User;
+
+
+
 // function User({children, color="red"}){
 //     return(
 //         <div style={{color:color, border:"5px solid green", width:"300px", margin:"10px"}}>
