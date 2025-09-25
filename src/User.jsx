@@ -1,7 +1,115 @@
 
+function User ({data}){
+    return(
+        <div>
+            <h3>Name: {data.name}</h3>
+            <h3>Age: {data.age}</h3>
+            <h3>Email: {data.email}</h3>
+            <h3>ID: {data.id}</h3>
+        </div>
+    )
+}
+
+export default User;
 
 
 
+
+// function User () {
+//     const userData=[
+//         {
+//             name: 'shahid',
+//             age: '29',
+//             email: 'shahid@test.com',
+//             id: '1'
+//         },
+//         {
+//             name: 'peter',
+//             age: '30',
+//             email: 'peter@text.com',
+//             id: '2'
+//         }, 
+//         {
+//             name: 'ali',
+//             age: '31',
+//             email: 'ali@mail.com',
+//             id: '3'
+//         },
+//         {
+//             name: 'yousuf',
+//             age: '32',
+//             email: 'you@mail.com',
+//             id: '4'
+//         }
+//     ]
+//     return (
+//         <div>
+//             <h1>Loops in JSX with Map function</h1>
+//             <table border='5'>
+//                 <thead>
+//                     <tr>
+//                         <td>Id</td>
+//                         <td>Name</td>
+//                         <td>Email</td>
+//                         <td>Age</td>
+//                     </tr>
+//                 </thead>
+//                 <tbody>
+//                     {
+//                         userData.map((user)=>(
+//                     <tr key={user.id}>
+//                         <td>{user.id}</td>
+//                         <td>{user.name}</td>
+//                         <td>{user.email}</td>
+//                         <td>{user.age}</td>
+//                     </tr>   
+//                         ))
+//                     }
+//                 </tbody>
+//             </table>
+
+//             <h1>Dammy Data</h1>
+//             <table border='5'>
+//                 <thead>
+//                     <tr>
+//                         <td>Id</td>
+//                         <td>Name</td>
+//                         <td>Mail</td>
+//                         <td>Age</td>
+//                     </tr>
+//                 </thead>
+//                 <tbody>
+//                     <tr>
+//                         <td>01</td>
+//                         <td>Shahid</td>
+//                         <td>shahid@test.com</td>
+//                         <td>29</td>
+//                     </tr>
+//                     <tr>
+//                         <td>02</td>
+//                         <td>Peter</td>
+//                         <td>peter@test.com</td>
+//                         <td>30</td>
+//                     </tr>
+//                     <tr>
+//                         <td>03</td>
+//                         <td>Ali</td>
+//                         <td>ali@test.com</td>
+//                         <td>31</td>
+//                     </tr>
+//                     <tr>
+//                         <td>04</td>
+//                         <td>Yousuf</td>
+//                         <td>yousuf@test.com</td>
+//                         <td>32</td>
+//                     </tr>
+//                 </tbody>
+//             </table>
+//         </div>
+//     )
+// }
+
+// export default User;
 
 // import { useState } from 'react';
 
