@@ -1,16 +1,46 @@
+// import { useState, useEffect } from 'react';
 
-function User ({data}){
-    return(
-        <div>
-            <h3>Name: {data.name}</h3>
-            <h3>Age: {data.age}</h3>
-            <h3>Email: {data.email}</h3>
-            <h3>ID: {data.id}</h3>
-        </div>
-    )
-}
+// const User = ({color}) => {
+//     const [clock, setClock] = useState();
+//     useEffect(() => {
+//         setInterval(() => {
+//             setClock(new Date().toLocaleTimeString())
+//         }, 1000);
+//     }, [])
+//     return (
+//         <div>
+//             <h1
+//                 style={{ color:color, backgroundColor: "black", width: "180px", padding: "10px", borderRadius: "5px" }}
+//             >{clock}</h1>
 
-export default User;
+//         </div>
+//     )
+// }
+
+// export default User;
+
+
+
+// function User ({data}){
+//     return(
+//         <div style={
+//             {
+//                 border: '1px solid black',
+//                 borderRadius: '10px',
+//                 padding: '10px',
+//                 margin: '10px',
+//                 width: '400px'
+//             }
+//         }>
+//             <h3>Name: <span style={{color:'green'}}>{data.name}</span></h3>
+//             <h3>Age: <span style={{color:'green'}}>{data.age}</span></h3>
+//             <h3>Email: <span style={{color:'green'}}>{data.email}</span></h3>
+//             <h3>ID: <span style={{color:'green'}}>{data.id}</span></h3>
+//         </div>
+//     )
+// }
+
+// export default User;
 
 
 
@@ -28,7 +58,7 @@ export default User;
 //             age: '30',
 //             email: 'peter@text.com',
 //             id: '2'
-//         }, 
+//         },
 //         {
 //             name: 'ali',
 //             age: '31',
@@ -62,7 +92,7 @@ export default User;
 //                         <td>{user.name}</td>
 //                         <td>{user.email}</td>
 //                         <td>{user.age}</td>
-//                     </tr>   
+//                     </tr>
 //                         ))
 //                     }
 //                 </tbody>

@@ -1,47 +1,74 @@
-import User from './User.jsx';
+// import User from './User';
+// import UseEffectExamples from './UseEffectExamples';
+// import {useState} from 'react';
 
-function App () {
-    const userData=[
-        {
-            name: 'shahid',
-            age: '29',
-            email: 'shahid@test.com',
-            id: '1'
-        },
-        {
-            name: 'peter',
-            age: '30',
-            email: 'peter@text.com',
-            id: '2'
-        }, 
-        {
-            name: 'ali',
-            age: '31',
-            email: 'ali@mail.com',
-            id: '3'
-        },
-        {
-            name: 'yousuf',
-            age: '32',
-            email: 'you@mail.com',
-            id: '4'
-        }]
-        return (
-            <div>
-                <h1>Resue Component in React</h1>
-            {
-                userData.map((user)=>(
-                    <div>
-                    <User data={user}/>
-                    </div>
-                ))
-            }
-            </div>
-        )
-    }
+// function App () {
+//     const [color, setColor]=useState('white');
+//     return (
+//         <div>
+//             <h1>useEffect() Examples</h1>
+//             <select onChange={(event)=>setColor(event.target.value)}>
+//                 <option value={"red"}>Red</option>
+//                 <option value={"yellow"}>Yellow</option>
+//                 <option value={"white"}>White</option>
+//             </select>
+        
+//         <User color={color} />
+//         <hr style={{margin: '20px 0'}} />
+//         <UseEffectExamples />
+//         </div>
+//     )
+// }
+
+// export default App;
 
 
-export default App;
+
+
+// import User from './User.jsx';
+
+// function App () {
+//     const userData=[
+//         {
+//             name: 'shahid',
+//             age: '29',
+//             email: 'shahid@test.com',
+//             id: '1'
+//         },
+//         {
+//             name: 'peter',
+//             age: '30',
+//             email: 'peter@text.com',
+//             id: '2'
+//         }, 
+//         {
+//             name: 'ali',
+//             age: '31',
+//             email: 'ali@mail.com',
+//             id: '3'
+//         },
+//         {
+//             name: 'yousuf',
+//             age: '32',
+//             email: 'you@mail.com',
+//             id: '4'
+//         }]
+//         return (
+//             <div>
+//                 <h1>Resue Component in React</h1>
+//             {
+//                 userData.map((user)=>(
+//                     <div>
+//                     <User data={user}/>
+//                     </div>
+//                 ))
+//             }
+//             </div>
+//         )
+//     }
+
+
+// export default App;
 
 
 
