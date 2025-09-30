@@ -1,3 +1,15 @@
+
+function User () {
+    return (
+       <div>
+        <h1>nested loops</h1>
+       </div>
+    )
+}
+
+export default User;
+
+
 // import { useState, useEffect } from 'react';
 
 // const User = ({color}) => {

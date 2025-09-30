@@ -1,3 +1,96 @@
+import User from './User.jsx'
+import College from './College.jsx'
+
+function App () {
+    const collegeData = [
+        {
+            name: "NIT Raw",
+            city: "Raw",
+            website: "nit.com",
+            student: [
+                {
+                    name: "Ali",
+                    age: "32",
+                    email: "ali@mail.com"
+                },
+                {
+                    name: "Hasan",
+                    age: "29",
+                    email: "hasan@mail.com"
+                },
+                {
+                    name: "wajji",
+                    age: "30",
+                    email: "wajji@mail.com"
+                }
+            ]
+        },
+        {
+            name: "KIU Gilgit",
+            city: "Raw",
+            website: "kiu.com",
+            student: [
+                {
+                    name: "Ali",
+                    age: "25",
+                    email: "ali@mail.com"
+                },
+                {
+                    name: "wajji",
+                    age: "29",
+                    email: "wajji@mail.com"
+                },
+                {
+                    name: "hasan",
+                    age: "29",
+                    email: "hasan@mail.com"
+                }
+
+            ]
+        },
+        {
+            name: "KU Karachi",
+            city: "Karachi",
+            website: "ku.com",
+            student: [
+                {
+                    name: "Ali",
+                    age: "32",
+                    email: "ali@mail.com"
+                },
+                {
+                    name: "hasan",
+                    age: "29",
+                    email: "hasan@gmail.com"
+                },
+                {
+                    name: "wajji",
+                    age: "30",
+                    email: "wajji@gmail.com"
+                }
+            ]
+        }
+    ]
+    return (
+        <div>
+            <h1>Nested Loops in react</h1>
+            {
+                collegeData.map((college, index)=>(
+                    <div key={index}>
+                    <College college={college} />
+                    </div>
+                ))
+            }
+            <User />
+        </div>
+    )
+}
+
+export default App;
+
+
+
+
 // import User from './User';
 // import UseEffectExamples from './UseEffectExamples';
 // import {useState} from 'react';
