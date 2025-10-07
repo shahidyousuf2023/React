@@ -3,6 +3,27 @@
 
 
 
+// import { useEffect } from 'react';
+
+// const User = ({counter, data})=> {
+//     const handleCounter = ()=> {
+//         console.log("first function" , counter)
+//     }
+//     useEffect(()=>{
+//         handleCounter();
+//     }, [counter])
+    
+//     return(
+//         <div>
+//             <h1>Counter {counter}</h1>
+//             <h1>Data {data}</h1>
+//         </div>
+//     )
+// }
+
+// export default User;
+
+
 // function User () {
 //     return (
 //        <div>

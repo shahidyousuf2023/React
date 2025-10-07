@@ -1,3 +1,97 @@
+
+
+const App = () => {
+    const cardStyle = {
+        border: '1px solid black', 
+        width: '200px', 
+        boxShadow: '1px 1px 1px 1px rgba(0, 0, 0, 0.5)',
+        margin:'5px'
+    }
+    return (
+        <div style={{display:'flex', flexWrap:'wrap'}}>
+            <div style={cardStyle}>
+                <img src="/images/image2.jpeg" alt="google logo" style={{width:'200px'}}/>
+                <div style={{padding: '10px'}}>
+                    <h4>Katerina</h4>
+                    <p>Software Developer</p>
+                </div>
+            </div>
+            <div style={cardStyle}>
+                <img src="/images/image2.jpeg" alt="google logo" style={{width:'200px'}}/>
+                <div style={{padding: '10px'}}>
+                    <h4>Katerina</h4>
+                    <p>Software Developer</p>
+                </div>
+            </div>
+            <div style={cardStyle}>
+                <img src="/images/image2.jpeg" alt="google logo" style={{width:'200px'}}/>
+                <div style={{padding: '10px'}}>
+                    <h4>Katerina</h4>
+                    <p>Software Developer</p>
+                </div>
+            </div>
+            <div style={cardStyle}>
+                <img src="/images/image2.jpeg" alt="google logo" style={{width:'200px'}}/>
+                <div style={{padding: '10px'}}>
+                    <h4>Katerina</h4>
+                    <p>Software Developer</p>
+                </div>
+            </div>
+            <div style={cardStyle}>
+                <img src="/images/image2.jpeg" alt="google logo" style={{width:'200px'}}/>
+                <div style={{padding: '10px'}}>
+                    <h4>Katerina</h4>
+                    <p>Software Developer</p>
+                </div>
+            </div>
+            <div style={cardStyle}>
+                <img src="/images/image2.jpeg" alt="google logo" style={{width:'200px'}}/>
+                <div style={{padding: '10px'}}>
+                    <h4>Katerina</h4>
+                    <p>Software Developer</p>
+                </div>
+            </div>
+            <div style={cardStyle}>
+                <img src="/images/image2.jpeg" alt="google logo" style={{width:'200px'}}/>
+                <div style={{padding: '10px'}}>
+                    <h4>Katerina</h4>
+                    <p>Software Developer</p>
+                </div>
+            </div>
+            <div style={cardStyle}>
+                <img src="/images/image2.jpeg" alt="google logo" style={{width:'200px'}}/>
+                <div style={{padding: '10px'}}>
+                    <h4>Katerina</h4>
+                    <p>Software Developer</p>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default App;
+
+
+// import {useState} from 'react';
+// import User from './User.jsx';
+// const App = () => {
+//     const [counter, setCounter] = useState(0);
+//     const [data, setData] = useState(0);
+//     return (
+    
+//         <div>
+            
+//             <button onClick={()=>setCounter(counter+1)}>Counter</button>
+            
+//             <button onClick={()=>setData(data+1)}>Data</button>
+//             <User counter={counter} data={data}/>
+//         </div>
+//     )
+// }
+
+// export default App;
+
+
 // import {useState, useEffect} from 'react';
 
 // function App () {
